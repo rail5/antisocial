@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AntiSocial Options</title>
+	<link rel="stylesheet" href="options.css">
+	<script src="options.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>AntiSocial Options</h1>
+
+		<form id="options-form">
+			<details class="section" id="youtube-section">
+				<summary class="section-summary">
+					<span class="chevron" aria-hidden="true"></span>
+					<span class="section-title">YouTube</span>
+					<label class="section-enable">
+						<input type="checkbox" id="youtube-toggle">
+						<span>Enabled</span>
+					</label>
+				</summary>
+
+				<div id="youtube-options" class="section-body">
+					<div class="toggle-row">
+						<span class="toggle-name">Comments</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-comments">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-comments">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Likes</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-likes">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-likes">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Views</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-views">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-views">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Subscribers</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-subscribers">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-subscribers">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Live Chat</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-liveChat">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-liveChat">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Posts</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-posts">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-posts">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Shorts</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-shorts">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-shorts">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">News Warnings</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-newsWarnings">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-newsWarnings">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Suggested Categories</span>
+						<label class="switch">
+							<input type="checkbox" id="youtube-suggestedCategories">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-youtube-suggestedCategories">Hide</span>
+					</div>
+				</div>
+			</details>
+
+			<details class="section" id="github-section">
+				<summary class="section-summary">
+					<span class="chevron" aria-hidden="true"></span>
+					<span class="section-title">GitHub</span>
+					<label class="section-enable">
+						<input type="checkbox" id="github-toggle">
+						<span>Enabled</span>
+					</label>
+				</summary>
+
+				<div id="github-options" class="section-body">
+					<div class="toggle-row">
+						<span class="toggle-name">Homepage feed</span>
+						<label class="switch">
+							<input type="checkbox" id="github-feed">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-feed">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Star count</span>
+						<label class="switch">
+							<input type="checkbox" id="github-stars">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-stars">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Fork count</span>
+						<label class="switch">
+							<input type="checkbox" id="github-forks">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-forks">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Watch count</span>
+						<label class="switch">
+							<input type="checkbox" id="github-watches">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-watches">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Follower/following count</span>
+						<label class="switch">
+							<input type="checkbox" id="github-followers">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-followers">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Emoji reactions</span>
+						<label class="switch">
+							<input type="checkbox" id="github-reactions">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-reactions">Hide</span>
+					</div>
+
+					<div class="toggle-row">
+						<span class="toggle-name">Contribution graph</span>
+						<label class="switch">
+							<input type="checkbox" id="github-contributions">
+							<span class="slider"></span>
+						</label>
+						<span class="toggle-label" id="label-github-contributions">Hide</span>
+					</div>
+				</div>
+			</details>
+		</form>
+	</div>
+</body>
+</html>
