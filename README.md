@@ -18,7 +18,7 @@ Under [content/css/](content/css/) are `.js` files for each individual website, 
 comments: `.ytd-comments, #comments, [section-identifier*="comment"]`
 ```
 
-That tells us that if we want to block "comments" sections, we can use the given CSS selectors to identify them, and then later hide them by injecting CSS with `display: none !important;`
+The above example tells us that if we want to hide "comments", we can inject a CSS rule for the given selectors with `display none: !important;`
 
 ## Supported Sites
 
