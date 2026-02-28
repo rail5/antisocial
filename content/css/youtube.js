@@ -9,6 +9,7 @@
 		comments:            `.ytd-comments, #comments, [section-identifier*="comment"]`,
 		posts:               `.ytd-post-renderer, #post`,
 		newsWarnings:        `ytd-info-panel-content-renderer`,
-		liveChat:            `ytd-live-chat-frame, yt-live-chat-app, yt-live-chat-renderer, .yt-live-chat-app, .yt-live-chat-renderer, #chat-container, #teaser-carousel`
+		liveChat:            `ytd-live-chat-frame, yt-live-chat-app, yt-live-chat-renderer, .yt-live-chat-app, .yt-live-chat-renderer, #chat-container, #teaser-carousel`,
+		ticketAds:           `ytd-ticket-shelf-renderer`
 	};
 })();

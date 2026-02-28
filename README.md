@@ -37,6 +37,7 @@ Capable of hiding:
  - Live chat & live chat replay
  - Community posts
  - Suggested video categories
+ - Ticket advertisements under music/performance videos
 
 
 ### AntiSocial GitHub

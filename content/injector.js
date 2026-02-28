@@ -19,7 +19,8 @@ const DEFAULT_SETTINGS = {
 		comments: true,
 		posts: true,
 		newsWarnings: true,
-		liveChat: true
+		liveChat: true,
+		ticketAds: true
 	}
 };
 
