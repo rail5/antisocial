@@ -23,7 +23,8 @@ const DEFAULT_SETTINGS = {
 		posts: true,
 		newsWarnings: true,
 		liveChat: true,
-		ticketAds: true
+		ticketAds: true,
+		AISummaries: true
 	}
 };
 

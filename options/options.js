@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		'posts',
 		'newsWarnings',
 		'liveChat',
-		'ticketAds'
+		'ticketAds',
+		'AISummaries'
 	];
 
 	function setSectionEnabled(sectionOptionsEl, enabled) {
