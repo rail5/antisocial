@@ -1,7 +1,7 @@
 (function () {
 	globalThis.AntiSocialCSS = globalThis.AntiSocialCSS || {};
 	globalThis.AntiSocialCSS.youtube = {
-		suggestedCategories: `#chips-wrapper, .yt-chip-cloud-renderer`,
+		suggestedCategories: `#chips-wrapper, .yt-chip-cloud-renderer, ytd-chips-shelf-with-video-shelf-renderer`,
 		shorts:              `ytd-rich-shelf-renderer, .ytGridShelfViewModelHost`,
 		views:               `yt-content-metadata-view-model, .ytd-watch-info-text, .ytd-video-meta-block, #metadata-container.ytd-grid-video-renderer, .shortsLockupViewModelHostOutsideMetadataSubhead, .shortsLockupViewModelHostMetadataSubhead, [class*="view-count"]`,
 		subscribers:         `#owner-sub-count, [aria-label*="subscribers"], #subtitle.ytd-video-description-infocards-section-renderer, #thumbnail-attribution.ytd-grid-channel-renderer`,
