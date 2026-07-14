@@ -8,6 +8,8 @@ It's incomplete, and website interfaces are perpetually changing.
 
 Each component can be configured separately via the options page. E.g., you can choose to hide comments on YouTube but show view counts.
 
+This is also available in the Mozilla extension "marketplace."
+
 ## How?
 
 Simple CSS injection, not very sophisticated, sometimes downright hacky.
