@@ -12,7 +12,7 @@ This is also available in the [Mozilla extension "marketplace"](https://addons.m
 
 ## How?
 
-Simple CSS injection, not very sophisticated, sometimes downright hacky.
+Simple CSS injection: not very sophisticated, sometimes downright hacky.
 
 Under [content/css/](content/css/) are `.js` files for each individual website, that contain labeled selectors like this:
 
