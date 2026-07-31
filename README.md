@@ -2,7 +2,7 @@
 
 ![AntiSocial](./icon-128.png)
 
-AntiSocial is a browser extension that hides "social media" features on certain websites.
+AntiSocial is a browser extension that hides "social media" features on selected websites.
 
 It's incomplete, and website interfaces are perpetually changing.
 
