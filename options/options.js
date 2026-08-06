@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		'stars',
 		'forks',
 		'watches',
+		'downloads',
 		'followers',
 		'reactions',
 		'contributions'

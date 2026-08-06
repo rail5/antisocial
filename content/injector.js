@@ -5,6 +5,7 @@ const DEFAULT_SETTINGS = {
 		stars: true,
 		forks: true,
 		watches: true,
+		downloads: true,
 		followers: true,
 		reactions: true,
 		contributions: true

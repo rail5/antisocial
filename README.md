@@ -49,6 +49,7 @@ Capable of hiding:
  - Star counts
  - Fork counts
  - "Watch" counts
+ - Download counts on release assets
  - Follower counts
  - Emoji reactions
  - Contribution graphs
