@@ -8,6 +8,6 @@
 		followers:     `[aria-label*="followers"], .flex-order-1.flex-md-order-none.mt-2.mt-md-0`,
 		reactions:     `[aria-label*="Reaction"], [aria-label*="reaction"], [class*="reaction"], [id*="reaction"]`,
 		contributions: `.js-yearly-contributions`,
-		downloads:     `[aria-label*="downloads"]`
+		downloads:     `[aria-label*="downloads"], [aria-label="1 download"]`
 	};
 })();
